@@ -33,10 +33,8 @@ import seaborn
 plot=sns.lmplot(x='x',y='y',data=mia_game1,fit_reg=False) 
 plot.set(xlabel='x_coord',ylabel='y_coord',title='Miami Shots vs. Chicago') #11/1/17
 plt.show() 
-##richarson shots? (dirty sprite vs. lean?)
-#pid":1626196
 
-#miami vice 2 (den vs. mia?)
+
 g1=open("den vs mia.json")
 g1=json.load(g1)
 g1.keys()
